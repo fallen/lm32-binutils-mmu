@@ -104,7 +104,7 @@
                (JTX 14) (JRX 15)          
                (BP0 16) (BP1 17) (BP2 18) (BP3 19)
                (WP0 24) (WP1 25) (WP2 26) (WP3 27)     
-               (TLBF 28) (TLBVADDR 29) (TLBPADDR 30)
+               (TLBCTRL 28) (TLBVADDR 29) (TLBPADDR 30)
               )
   )
   () ()
