@@ -1,0 +1,24 @@
+How to install Milkymist LM32-MMU modified version of binutils
+
+1°) Clone source repository
+
+	git clone git://github.com/fallen/lm32-binutils-mmu.git
+
+2°) Make sure you have everything ready to compile lm32-binutils-mmu
+
+	sudo aptitude install m4 patch build-essential texinfo cvs libncurses5-dev libgmp3-dev libmpfr-dev libmpc-dev autoconf autotools-dev automake
+
+3°) Compile it
+
+	mkdir b-binutils
+	cd b-binutils
+	../lm32-binutils-mmu/configure --target=lm32-rtems4.11 --prefix=/opt/rtms-4.11/
+	make all
+	make info
+	sudo make install
+
+4°) Add somewhere in your .bashrc/zshrc/.profile : 
+
+	export PATH=/opt/rtems-4.11/bin:$PATH
+
+5°) Restart your GNOME/KDE/Mac OS/awesome/whatever session
