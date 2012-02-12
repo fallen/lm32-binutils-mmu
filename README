@@ -12,7 +12,7 @@ How to install Milkymist LM32-MMU modified version of binutils
 
 	mkdir b-binutils
 	cd b-binutils
-	../lm32-binutils-mmu/configure --target=lm32-rtems4.11 --prefix=/opt/rtms-4.11/
+	../lm32-binutils-mmu/configure --target=lm32-rtems4.11 --prefix=/opt/rtems-4.11/
 	make all
 	make info
 	sudo make install
