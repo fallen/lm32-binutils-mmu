@@ -197,13 +197,15 @@ static CGEN_KEYWORD_ENTRY lm32_cgen_opval_h_csr_entries[] =
   { "WP3", 27, {0, {{{0, 0}}}}, 0, 0 },
   { "TLBCTRL", 28, {0, {{{0, 0}}}}, 0, 0 },
   { "TLBVADDR", 29, {0, {{{0, 0}}}}, 0, 0 },
+  { "DTLBMA", 29, {0, {{{0, 0}}}}, 0, 0 },
   { "TLBPADDR", 30, {0, {{{0, 0}}}}, 0, 0 }
+  { "ITLBMA", 30, {0, {{{0, 0}}}}, 0, 0 }
 };
 
 CGEN_KEYWORD lm32_cgen_opval_h_csr =
 {
   & lm32_cgen_opval_h_csr_entries[0],
-  23,
+  25,
   0, 0, 0, 0, ""
 };
 
