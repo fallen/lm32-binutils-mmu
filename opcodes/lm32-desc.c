@@ -198,7 +198,7 @@ static CGEN_KEYWORD_ENTRY lm32_cgen_opval_h_csr_entries[] =
   { "TLBCTRL", 28, {0, {{{0, 0}}}}, 0, 0 },
   { "TLBVADDR", 29, {0, {{{0, 0}}}}, 0, 0 },
   { "DTLBMA", 29, {0, {{{0, 0}}}}, 0, 0 },
-  { "TLBPADDR", 30, {0, {{{0, 0}}}}, 0, 0 }
+  { "TLBPADDR", 30, {0, {{{0, 0}}}}, 0, 0 },
   { "ITLBMA", 30, {0, {{{0, 0}}}}, 0, 0 }
 };
 
