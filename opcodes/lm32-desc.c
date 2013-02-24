@@ -185,6 +185,7 @@ static CGEN_KEYWORD_ENTRY lm32_cgen_opval_h_csr_entries[] =
   { "EBA", 7, {0, {{{0, 0}}}}, 0, 0 },
   { "DC", 8, {0, {{{0, 0}}}}, 0, 0 },
   { "DEBA", 9, {0, {{{0, 0}}}}, 0, 0 },
+  { "CFG2", 10, {0, {{{0, 0}}}}, 0, 0 },
   { "JTX", 14, {0, {{{0, 0}}}}, 0, 0 },
   { "JRX", 15, {0, {{{0, 0}}}}, 0, 0 },
   { "BP0", 16, {0, {{{0, 0}}}}, 0, 0 },
@@ -204,7 +205,7 @@ static CGEN_KEYWORD_ENTRY lm32_cgen_opval_h_csr_entries[] =
 CGEN_KEYWORD lm32_cgen_opval_h_csr =
 {
   & lm32_cgen_opval_h_csr_entries[0],
-  24,
+  25,
   0, 0, 0, 0, ""
 };
 
